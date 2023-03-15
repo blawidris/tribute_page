@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px/1.5 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  /* letter-spacing: 2px; */
+  word-spacing: 2px;
+}
+
+/* utilities */
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding: 15px 20px;
+}
+
+img{
+    width: 100%;
+}
+
+/* top section */
+.top-section{
+    padding: 40px;
+    text-align: center;
+  
+}
+.top-section .title{
+    font-size: 48px;
+}
+
+figure{
+    padding: 0 30px 15px;
+    background-color: white;
+    text-align: center;
+}
+
+figcaption{
+    margin-top: 10px;
+    /* letter-spacing: 1px; */
+}
+
+.bottom-section{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* line-height: ; */
+}
+
+.bottom-section .subtitle{
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.quote, .bottom-section .list{
+    width: 50%;
+}
+.bottom-section .list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list li{
+    margin-bottom: 15px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+.quote .author{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 15px;
+}
